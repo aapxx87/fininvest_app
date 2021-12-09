@@ -1,0 +1,52 @@
+@import url('containers.css');
+
+/* components */
+@import url('../scripts/components/switcher/container_switch.css');
+@import url('../scripts/components/investments/stock_card/stock_card.css');
+@import url('../scripts/components/investments/stock_summary/stock_summary.css');
+@import url('../scripts/components/finlists/finlist_container/finlist_container.css');
+@import url('../scripts/components/finlists/finlist_summary/finlist_summary.css');
+@import url('../scripts/components/finlists/finlist_card/finlist_card.css');
+
+
+
+/* html {
+  background: linear-gradient(#4B4453, #7C7484);
+  
+} */
+
+html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+
+  background: #353840;
+  /* background-image: linear-gradient(to bottom, #4a4e5f, #444857, #3f434f, #3a3d48, #353840); */
+
+  color: #fff;
+}
+
+
+/* используется в JS, чтобы делать блоки видимыми */
+.visible {
+  display: block;
+}
+
+
+
+
+
+

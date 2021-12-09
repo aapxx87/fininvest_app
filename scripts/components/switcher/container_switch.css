@@ -1,0 +1,8 @@
+.container-switch {
+    display: flex;
+    height: 50px;
+    /*border: 1px solid #fff;*/
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 57px;
+}

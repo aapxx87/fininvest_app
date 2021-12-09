@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>FinInvest App</title>
+</head>
+
+<body>
+
+
+  <div class="container-main">
+
+    <!-- контейнер с котировками -->
+    <div class="container-portfolio-quotes">
+      <div class="total-balances"></div>
+      <ul class="quote-ul"></ul>
+    </div>
+
+  </div>
+
+
+
+  <!--  Components-->
+
+  <!--  ---- Switcher-->
+  <script src="scripts/components/switcher/switch_container.js"></script>
+
+  <!--  ---- Investments-->
+  <script src="scripts/components/investments/stock_card/stock_card.js"></script>
+  <script src="scripts/components/investments/stock_summary/stock_summary.js"></script>
+
+  <!--  ---- Finlists-->
+  <script src="scripts/components/finlists/finlist_container/finlist_container.js"></script>
+  <script src="scripts/components/finlists/finlist_summary/finlist_summary.js"></script>
+  <script src="scripts/components/finlists/finlist_card/finlist_card.js"></script>
+
+
+
+  <!--  selectors-->
+  <script src="scripts/selectors.js"></script>
+
+
+<!--  data invest-->
+  <script src="scripts/components/investments/data_invest.js"></script>
+  <!--  data finlists-->
+  <script src="scripts/components/finlists/data_finlists.js"></script>
+
+<!--  invest main script-->
+  <script src="scripts/components/investments/script-portfolio-stocks.js"></script>
+
+
+  <!--  rendering-->
+  <script src="scripts/render.js"></script>
+
+  <!--  finlists main script-->
+  <script src="scripts/components/finlists/script_finlists.js"></script>
+
+<script src="scripts/components/switcher/switch_container_action.js"></script>
+
+  <script src="scripts/components/finlists/toggle_details.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>

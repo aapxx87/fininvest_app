@@ -1,0 +1,101 @@
+.comp-finList-box {
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding: 17px;
+    color: #d5dadd;
+    border: 1px solid #41444e;
+}
+
+.finlist-header {
+    width: 100%;
+    display: flex;
+}
+
+.toggle-click-open {
+    width: 300px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.finList-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+
+.finList-title span {
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(153, 159, 189);
+
+}
+
+
+.finList-total {
+    display: block;
+    font-weight: 200;
+    font-size: 15px;
+    color: #a3b3bd;
+}
+
+.finList-total span {
+    color: rgb(83, 233, 158);
+    font-weight: 400;
+}
+
+
+
+.finlist-table {
+    margin-top: 20px;
+    display: none;
+    padding-right: 20px;
+}
+
+.table-header {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    background: rgb(135, 93, 248);
+}
+
+
+.table {
+    display: inline-block;
+    width: 100%;
+}
+
+.table-title {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 3px;
+    margin-left: 4px;
+    color: #ac4c5c;
+}
+
+.tr {
+    height: 34px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #6e4048;
+    max-width: 310px;
+    padding: 3px;
+}
+
+.col-date {
+    width: 150px;
+    text-align: center;
+    text-align: left;
+    color: #a3b3bd;
+    font-size: 14px;
+
+}
+
+.col-amount {
+    width: 150px;
+    text-align: center;
+    text-align: right;
+    font-size: 15px;
+}

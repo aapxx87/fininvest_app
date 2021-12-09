@@ -1,0 +1,27 @@
+.container-accumulate-balance {
+    margin: 40px 0;
+    text-align: center;
+    position: relative;
+}
+
+
+.accumulate-number {
+    font-size: 20px;
+    margin-bottom: 4px;
+    display: inline-block;
+    position: relative;
+}
+
+.accumulate-number span {
+    font-size: 12px;
+    color: #a3b3bd;
+    position: absolute;
+    top: -2px;
+    right: -10px;
+}
+
+.accumulate-title {
+    font-size: 15px;
+    color: #a3b3bd;
+    opacity: .6;
+}
