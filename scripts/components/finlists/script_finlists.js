@@ -33,8 +33,6 @@ arr.forEach(function (el) {
         `
         }
 
-
-
         finlistTotal.push(elMov.movAmount)
 
         // если баксы, то пересчитываем в рубли
@@ -47,19 +45,16 @@ arr.forEach(function (el) {
     }, 0)
 
 
-    const htmlTitle = `
-        <div class="finlist-header">
-        <div class="toggle-click-open">
-            <h3 class="finList-title">${el.finlistName} <span>(${el.finlistCurrency})</span></h3>
-            <h3 class="finList-total">Total: <span>${new Intl.NumberFormat('ru-RU').format(finlistTotalSum)}</span></h3>
-        </div>
-    </div>
-    
-    `
 
     const htmlFinal = `
          <div class="comp-finList-box">
-           ${htmlTitle}
+         
+            <div class="finlist-header">
+              <div class="toggle-click-open">
+                <h3 class="finList-title">${el.finlistName} <span>(${el.finlistCurrency})</span></h3>
+                <h3 class="finList-total">Total: <span>${new Intl.NumberFormat('ru-RU').format(finlistTotalSum)}</span></h3>
+              </div>
+           </div>
          
            <div class="finlist-table">
              <h3 class="table-title">Activity</h3>
@@ -67,6 +62,7 @@ arr.forEach(function (el) {
                     ${htmlMovements}
                </table>
            </div>
+           
          </div>  
     `
     finlistsContainer.insertAdjacentHTML('beforeend', htmlFinal)

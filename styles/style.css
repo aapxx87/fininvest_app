@@ -4,6 +4,8 @@
 @import url('../scripts/components/switcher/container_switch.css');
 @import url('../scripts/components/investments/stock_card/stock_card.css');
 @import url('../scripts/components/investments/stock_summary/stock_summary.css');
+@import url('../scripts/components/investments/spinner/spinner.css');
+
 @import url('../scripts/components/finlists/finlist_container/finlist_container.css');
 @import url('../scripts/components/finlists/finlist_summary/finlist_summary.css');
 @import url('../scripts/components/finlists/finlist_card/finlist_card.css');

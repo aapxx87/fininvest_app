@@ -1,3 +1,5 @@
+// const containerPortfolioQuotes = document.querySelector('.container-portfolio-quotes')
+
 
 // нужно для рассчета всего суммарного значнеия инвестиций на текущий момент
 const portfolioSumArr = []
@@ -71,11 +73,12 @@ const get_BenchmarkLastPrice = function(arr) {
 
 
 
-
-
-
-
 const calculate_StocksData = async function (arr) {
+
+
+  renderSpinner(containerPortfolioQuotes)
+
+
 
   // получаем актуальные курсы котировок (акции + рубль - последний элемент)
   const stocksPlusRubQuotes = await get_API_StocksQuotes(tickerArr)
@@ -162,6 +165,13 @@ const calculate_StocksData = async function (arr) {
       totalDelta: new Intl.NumberFormat('ru-RU').format(totalInvestmentsSum - totalInvestmentsSumStart),
       totalDeltaPercent: ((totalInvestmentsSum - totalInvestmentsSumStart) / (totalInvestmentsSumStart / 100)).toFixed(0)
     }
+
+
+
+    const elem = document.querySelector('.spinner');
+
+    elem.style.display = 'none'
+
 
 
     // вставляем компоненту по каждой конкретной акции

@@ -1,5 +1,6 @@
 const componentStockData = function (obj) {
 
+
     const html = `
           <li>
           <div class="quote-box ${obj.pnl > 0 ? "profit" : "loss"}">
@@ -16,6 +17,8 @@ const componentStockData = function (obj) {
           </div>
         </li>
       `
+
+
 
     quoteContainer.insertAdjacentHTML("beforeend", html)
 
